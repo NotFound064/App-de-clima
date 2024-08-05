@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://wallpapers.com/images/high/earth-background-mgahg1v9gw4dy2mm.webp");
+}
+.header{
+    outline:none;
+    text-align: center;
+    color:aliceblue;
+    background-color: aliceblue;
+    padding:1%;
+}
+
+.src{
+    display:flex;;
+    border:none;
+    outline:none;
+    padding:5px;;
+    border-radius:50px;
+    cursor:pointer;
+    float:right;
+}
+
+.srcimg{
+    width:10px;
+}
+
+input::placeholder{
+    outline:none;
+    color:aliceblue;
+    background-color: cyan;
+    padding:10px;
+}
+
+textarea::placeholder{
+    color:cyan;
+}
+
+.yourCity{
+    box-sizing:border-box;
+    width:20%;
+    background: cyan;
+    border-radius: 25px;
+    padding: 20px;
+    border: 2px;
+    float:left;
+    display: block;
+    align-items: center;
+    justify-content:center;
+    margin:auto;
+     }
+
+.img{
+    display:flex;
+    width:20px;
+    height:60px;
+}
+
+.otherCities{
+    background-color: white;
+    float:right;
+    align-items:right;
+    justify-content:end;
+    margin-right:10opx;
+    padding-right:20px;
+    padding-left: 20px;
+    text-align:center;
+    height:100vh;
+}
